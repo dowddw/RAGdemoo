@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Demo with Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>RAG Demo Site</h1>
+
+    <!-- RAG Indicators -->
+    <div id="rag-indicators">
+        <div class="indicator red">Red</div>
+        <div class="indicator amber">Amber</div>
+        <div class="indicator green">Green</div>
+    </div>
+
+    <!-- Chatbot Section -->
+    <div id="chatbot">
+        <div id="chatbox">
+            <div id="messages"></div>
+            <input type="text" id="userInput" placeholder="Type a message..." />
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
